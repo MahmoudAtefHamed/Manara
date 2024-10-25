@@ -1,0 +1,54 @@
+form{
+    border: 1px solid black;
+    width: 20rem;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    color: #000;
+}
+form input {
+    width: 100%;
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+form input:hover{
+    background-color: greenyellow;
+}
+form input:focus{
+    background-color: rgb(247, 119, 119);
+}
+
+#button{
+    background-color: greenyellow;
+    height: 50px;
+    line-height: 50px;
+
+}
+#button:hover{
+    background-color: red;
+}
+
+form .option{
+    width: 10%;
+}
+
+input[type="text"]{
+    background-color:tomato;
+}
+
+a[href*="google"]{
+    background-color: red;
+}
+a[href="http:www.facebook.com"]{
+    color: greenyellow;
+    text-decoration: none;
+}
+a[href$=".com"]{
+    color: tomato;
+    text-decoration: none;
+}
